@@ -1,0 +1,10 @@
+a = [100,200,300,200,100,500,600,400,800,500,400]
+
+d_items = set()
+u_items = []
+for x in a:
+    if x not in d_items:
+        u_items.append(x)
+        d_items.add(x)
+
+print(d_items)
