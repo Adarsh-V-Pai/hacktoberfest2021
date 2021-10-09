@@ -1,0 +1,13 @@
+def w_c(str):
+    ct = dict()
+    w = str.split()
+
+    for word in w:
+        if word in c:
+            ct[word] += 1
+        else:
+            ct[word] = 1
+
+    return ct
+
+print( w_c('the quick brown fox jumps over the lazy dog.'))
